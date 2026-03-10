@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="faceBg" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#f5d0a9"/>
+      <stop offset="100%" stop-color="#e8b88a"/>
+    </radialGradient>
+    <radialGradient id="cheek" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f4a0a0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f4a0a0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e53e3e"/>
+      <stop offset="100%" stop-color="#c53030"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="98" fill="url(#bgGrad)" stroke="#22d3ee" stroke-width="2.5" filter="url(#glow)"/>
+
+  <!-- Body / Red shirt -->
+  <ellipse cx="100" cy="185" rx="52" ry="38" fill="url(#shirtGrad)"/>
+  <!-- Shirt collar -->
+  <path d="M82 158 Q100 168 118 158 Q112 152 100 154 Q88 152 82 158Z" fill="#c53030"/>
+  <!-- Shirt buttons -->
+  <circle cx="100" cy="168" r="2" fill="#2d1010" opacity="0.5"/>
+  <circle cx="100" cy="178" r="2" fill="#2d1010" opacity="0.5"/>
+
+  <!-- Neck -->
+  <rect x="91" y="140" width="18" height="20" rx="6" fill="#e8b88a"/>
+
+  <!-- Face -->
+  <ellipse cx="100" cy="95" rx="48" ry="52" fill="url(#faceBg)"/>
+
+  <!-- Hair - messy dark hair -->
+  <path d="M52 85 Q48 50 68 35 Q78 28 90 30 Q100 25 110 30 Q122 28 132 35 Q152 50 148 85 Q145 70 138 60 Q128 48 115 45 Q105 42 95 45 Q82 48 72 60 Q62 72 55 85Z" fill="#2d1a0e"/>
+  <!-- Hair tufts -->
+  <path d="M70 38 Q65 25 72 20 Q78 28 75 35Z" fill="#2d1a0e"/>
+  <path d="M95 32 Q92 18 100 15 Q108 18 105 32Z" fill="#2d1a0e"/>
+  <path d="M125 35 Q130 22 135 25 Q133 33 128 38Z" fill="#2d1a0e"/>
+
+  <!-- Eyebrows - expressive/raised -->
+  <path d="M68 72 Q78 64 88 70" stroke="#2d1a0e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M112 70 Q122 64 132 72" stroke="#2d1a0e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes - playful, slightly squinted -->
+  <ellipse cx="80" cy="82" rx="9" ry="10" fill="white"/>
+  <ellipse cx="120" cy="82" rx="9" ry="10" fill="white"/>
+  <!-- Pupils - looking slightly to the side (mischievous) -->
+  <ellipse cx="83" cy="83" rx="5" ry="5.5" fill="#1a1a2e"/>
+  <ellipse cx="123" cy="83" rx="5" ry="5.5" fill="#1a1a2e"/>
+  <!-- Eye shine -->
+  <circle cx="85" cy="80" r="2" fill="white" opacity="0.9"/>
+  <circle cx="125" cy="80" r="2" fill="white" opacity="0.9"/>
+
+  <!-- Nose -->
+  <path d="M97 92 Q100 100 103 92" stroke="#d4956a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth - big open grin with tongue out -->
+  <path d="M76 108 Q88 122 100 122 Q112 122 124 108" fill="#8b2020" stroke="#6b1515" stroke-width="1"/>
+  <!-- Teeth -->
+  <path d="M80 108 L84 114 L88 108 L92 114 L96 108 L100 114 L104 108 L108 114 L112 108 L116 114 L120 108" fill="white" stroke="none"/>
+  <!-- Tongue sticking out -->
+  <ellipse cx="100" cy="126" rx="12" ry="9" fill="#e55a5a"/>
+  <path d="M92 122 Q100 118 108 122 Q106 130 100 133 Q94 130 92 122Z" fill="#e55a5a"/>
+  <line x1="100" y1="122" x2="100" y2="131" stroke="#c94444" stroke-width="0.8"/>
+
+  <!-- Cheeks (blush) -->
+  <circle cx="62" cy="100" r="12" fill="url(#cheek)"/>
+  <circle cx="138" cy="100" r="12" fill="url(#cheek)"/>
+
+  <!-- Left hand pointing to head -->
+  <g transform="translate(38, 58) rotate(-15)">
+    <!-- Arm -->
+    <path d="M10 40 Q5 20 12 5" stroke="#e8b88a" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- Pointing finger -->
+    <circle cx="12" cy="3" r="5" fill="#e8b88a"/>
+    <line x1="12" y1="-2" x2="14" y2="-10" stroke="#e8b88a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right hand raised with item -->
+  <g transform="translate(152, 62) rotate(15)">
+    <!-- Arm -->
+    <path d="M0 35 Q8 15 4 0" stroke="#e8b88a" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- Hand -->
+    <circle cx="4" cy="-2" r="5" fill="#e8b88a"/>
+  </g>
+
+  <!-- Terminal prompt on shirt -->
+  <text x="100" y="175" text-anchor="middle" font-family="monospace" font-size="10" fill="#22d3ee" opacity="0.7">&gt;_</text>
+
+  <!-- Ears -->
+  <ellipse cx="52" cy="88" rx="6" ry="9" fill="#e8b88a"/>
+  <ellipse cx="52" cy="88" rx="3.5" ry="6" fill="#d4956a" opacity="0.3"/>
+  <ellipse cx="148" cy="88" rx="6" ry="9" fill="#e8b88a"/>
+  <ellipse cx="148" cy="88" rx="3.5" ry="6" fill="#d4956a" opacity="0.3"/>
+</svg>
