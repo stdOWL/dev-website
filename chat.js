@@ -1,9 +1,10 @@
 // ===== AI Chat Widget =====
 // Configure your API proxy URL here
 const CHAT_CONFIG = {
-    // Point this to your serverless function / API proxy
-    // e.g., "https://your-domain.com/api/chat" or "/.netlify/functions/chat"
-    apiUrl: '/api/chat',
+    // Uses local proxy in dev, Netlify function in production
+    apiUrl: window.location.hostname === 'localhost'
+        ? '/api/chat'
+        : 'https://osman-dev-chat-api.netlify.app/.netlify/functions/chat',
     maxMessages: 20, // context window limit
 };
 
