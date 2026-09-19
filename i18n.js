@@ -8,7 +8,7 @@
     var TRANSLATIONS = {
         en: {
             // Hero
-            heroSubtitle: 'Software Developer',
+            heroSubtitle: 'Senior Software Engineer & Team Lead',
             heroStat: '// years building scalable systems & solutions',
             heroDesc1: '* Full-stack engineer specializing in Java, Python & Cloud.',
             heroDesc2: '* Systems, solutions, blockchain, IoT & reverse engineering.',
@@ -18,15 +18,16 @@
 
             // About
             aboutTitle: '# About Me',
-            aboutText1: 'Passionate and experienced software engineer with 15+ years building innovative solutions that drive business growth. I specialize in <span class="highlight">Java</span> and <span class="highlight">Python</span> development and <span class="highlight">cloud-based technologies</span>, optimizing systems for high performance and scalability.',
-            aboutText2: 'Currently at <span class="highlight">Financial House</span> in London, managing projects with $300M+ in transaction volume. Committed to leveraging technical expertise in secure digital transactions within dynamic FinTech environments.',
+            aboutText1: 'I was 15 when I built my first multiplayer game server: reverse-engineered the client\'s encrypted protocol, wrote the server emulator and a kernel-mode anticheat driver, and ran it live. A gaming company tried to buy it and hired me instead. Fifteen years later I do the same thing for payments: understand the protocol, find the edge cases, keep it up in production.',
+            aboutText2: 'Currently at <span class="highlight">Financial House</span> in London, where my team runs the platform behind card acquiring, FX, SWIFT and Faster Payments. Day to day: <span class="highlight">Java</span>, <span class="highlight">Python</span>, PHP, AWS and Kubernetes, plus LLM agents for payment operations.',
             detailLocation: '"London, UK"',
             detailEducation: '"BSc Computer Science - METU"',
             detailLanguages: '["Turkish (Native)", "English (Proficient)"]',
+            detailAward: '"e-biko 7th International ICT Olympiad, Ankara 2011"',
 
             // Achievements
             ach1Title: '$6M Profit Boost',
-            ach1Desc: 'System redevelopment and upgrades at ALTINBULL Investment',
+            ach1Desc: 'System redevelopment and upgrades at GoldenBull',
             ach2Title: '$4M Token Sales',
             ach2Desc: 'Contributed to token sales in one year at AceD Community',
             ach3Title: '97% Faster',
@@ -35,8 +36,17 @@
             ach4Desc: 'EC2 to EKS migration for critical services at Financial House',
 
             // Experience
-            expRole: 'Software Developer',
+            expRoleFh: 'Senior Software Engineer & Team Lead',
+            expRoleSt: 'Software Developer',
+            expRoleAc: 'Software Developer',
+            expRoleGb: 'Team Lead',
             expPresent: 'Present',
+            expFhCat0: 'AI, Migrations & Leadership',
+            expFh13: 'Built Sherlog, an LLM agent that investigates failed payments (New Relic + CloudWatch, PCI-compliant masking, Slack) \u2014 15\u201320 min to under 1 min',
+            expFh14: 'Ran a live production DB migration with a fault-tolerant Python MySQL replication service (47 tables, checksum validation) \u2014 zero permanent data loss, 13 in-flight transactions recovered',
+            expFh15: 'Led AI-assisted migration of 40+ payment microservices to PHP 8.3 / Laravel 12 using Claude Code',
+            expFh16: 'Standardised observability with New Relic custom instrumentation across payment services',
+            expFh17: 'Stepped up to lead the team in 2024 after the PM and Team Lead left; hired two engineers',
             expFhCat1: 'Infrastructure & Cloud',
             expFhCat2: 'Payments & Integrations',
             expFhCat3: 'Compliance & Security',
@@ -88,7 +98,7 @@
             contactIntro: "Interested in working together? Let's connect.",
 
             // Footer
-            footerTagline: 'Software Developer building<br>scalable systems &amp; solutions.',
+            footerTagline: 'Senior Software Engineer building<br>payments &amp; fintech infrastructure.',
             footerCopy: '\u00a9 2026 Built with passion.',
 
             // Chat
@@ -117,7 +127,7 @@
         },
 
         tr: {
-            heroSubtitle: 'Yazılım Geliştirici',
+            heroSubtitle: 'Kıdemli Yazılım Mühendisi & Takım Lideri',
             heroStat: '// yıldır ölçeklenebilir sistemler ve çözümler geliştiriyorum',
             heroDesc1: '* Java, Python ve Cloud alanında full-stack mühendis.',
             heroDesc2: '* Sistemler, çözümler, blockchain, IoT ve tersine mühendislik.',
@@ -126,14 +136,15 @@
             heroDesc5: '* Olasılıktan değil \u2014 zamandan bahset.',
 
             aboutTitle: '# Hakkımda',
-            aboutText1: 'İş büyümesini artıran yenilikçi çözümler geliştiren 15+ yıllık deneyime sahip tutkulu yazılım mühendisi. <span class="highlight">Java</span> ve <span class="highlight">Python</span> geliştirme ile <span class="highlight">bulut tabanlı teknolojiler</span> konusunda uzmanım; yüksek performans ve ölçeklenebilirlik için sistemleri optimize ediyorum.',
-            aboutText2: 'Şu anda Londra\'da <span class="highlight">Financial House</span>\'da, 300M$+ işlem hacmine sahip projeleri yönetiyorum. Dinamik FinTech ortamlarında güvenli dijital işlemler için teknik uzmanlığımı kullanmaya kararlıyım.',
+            aboutText1: 'İlk çok oyunculu oyun sunucumu 15 yaşında yazdım: istemcinin şifreli protokolünü tersine mühendislikle çözdüm, sunucu emülatörünü ve çekirdek modu anti-hile sürücüsünü yazdım ve canlıya aldım. Bir oyun şirketi satın almak istedi, bunun yerine beni işe aldı. On beş yıl sonra aynı işi ödeme sistemleri için yapıyorum: protokolü anla, uç durumları bul, üretimde ayakta tut.',
+            aboutText2: 'Şu anda Londra\'da <span class="highlight">Financial House</span>\'dayım; ekibim kart kabul, FX, SWIFT ve Faster Payments altyapısını işletiyor. Günlük: <span class="highlight">Java</span>, <span class="highlight">Python</span>, PHP, AWS ve Kubernetes, artı ödeme operasyonları için LLM ajanları.',
             detailLocation: '"Londra, İngiltere"',
             detailEducation: '"Bilgisayar Müh. Lisans - ODTÜ"',
             detailLanguages: '["Türkçe (Ana Dil)", "İngilizce (İleri Düzey)"]',
+            detailAward: '"e-biko 7. Uluslararası Bilişim Olimpiyatı, Ankara 2011"',
 
             ach1Title: '6M$ Kâr Artışı',
-            ach1Desc: 'ALTINBULL Yatırım\'da sistem yenileme ve geliştirme',
+            ach1Desc: 'GoldenBull\'da sistem yenileme ve geliştirme',
             ach2Title: '4M$ Token Satışı',
             ach2Desc: 'AceD Community\'de bir yılda token satışlarına katkı',
             ach3Title: '%97 Daha Hızlı',
@@ -141,8 +152,17 @@
             ach4Title: '%99.99 Çalışma Süresi',
             ach4Desc: 'Financial House\'da kritik servislerin EC2\'den EKS\'ye göçü',
 
-            expRole: 'Yazılım Geliştirici',
+            expRoleFh: 'Kıdemli Yazılım Mühendisi & Takım Lideri',
+            expRoleSt: 'Yazılım Geliştirici',
+            expRoleAc: 'Yazılım Geliştirici',
+            expRoleGb: 'Takım Lideri',
             expPresent: 'Devam Ediyor',
+            expFhCat0: 'Yapay Zeka, Göçler ve Liderlik',
+            expFh13: 'Başarısız ödemeleri araştıran LLM ajanı Sherlog\'u geliştirdim (New Relic + CloudWatch, PCI uyumlu maskeleme, Slack) \u2014 15\u201320 dk\'dan 1 dk\'nın altına',
+            expFh14: 'Hataya dayanıklı Python MySQL replikasyon servisiyle canlı üretim DB göçü (47 tablo, checksum doğrulama) \u2014 kalıcı veri kaybı yok, uçuştaki 13 işlem kurtarıldı',
+            expFh15: 'Claude Code ile 40+ ödeme mikroservisinin PHP 8.3 / Laravel 12\'ye AI destekli göçünü yönettim',
+            expFh16: 'Ödeme servislerinde New Relic özel enstrümantasyonu ile gözlemlenebilirliği standartlaştırdım',
+            expFh17: 'PM ve Takım Lideri ayrılınca 2024\'te ekibin liderliğini üstlendim; iki mühendis işe aldım',
             expFhCat1: 'Altyapı ve Bulut',
             expFhCat2: 'Ödemeler ve Entegrasyonlar',
             expFhCat3: 'Uyumluluk ve Güvenlik',
@@ -190,7 +210,7 @@
 
             contactIntro: 'Birlikte çalışmak ister misiniz? Bağlantı kuralım.',
 
-            footerTagline: 'Ölçeklenebilir sistemler ve çözümler<br>geliştiren Yazılım Geliştirici.',
+            footerTagline: 'Ödeme ve fintech altyapısı<br>geliştiren Kıdemli Yazılım Mühendisi.',
             footerCopy: '\u00a9 2026 Tutkuyla yapıldı.',
 
             chatWelcome: 'Merhaba! Ben Osman\'ın yapay zekası \u2014 dijital ikizi olarak düşün. Deneyimi, projeleri, vizyonu hakkında her şeyi sorabilirsin. Tıpkı onun gibi konuşurum.',
@@ -216,7 +236,7 @@
         },
 
         es: {
-            heroSubtitle: 'Desarrollador de Software',
+            heroSubtitle: 'Ingeniero de Software Senior & Team Lead',
             heroStat: '// años construyendo sistemas y soluciones escalables',
             heroDesc1: '* Ingeniero full-stack especializado en Java, Python y Cloud.',
             heroDesc2: '* Sistemas, soluciones, blockchain, IoT e ingeniería inversa.',
@@ -225,14 +245,15 @@
             heroDesc5: '* No hables de posibilidad \u2014 habla de tiempo.',
 
             aboutTitle: '# Sobre Mí',
-            aboutText1: 'Ingeniero de software apasionado y experimentado con más de 15 años creando soluciones innovadoras que impulsan el crecimiento empresarial. Me especializo en desarrollo con <span class="highlight">Java</span> y <span class="highlight">Python</span> y <span class="highlight">tecnologías basadas en la nube</span>, optimizando sistemas para alto rendimiento y escalabilidad.',
-            aboutText2: 'Actualmente en <span class="highlight">Financial House</span> en Londres, gestionando proyectos con más de $300M en volumen de transacciones. Comprometido con el uso de experiencia técnica en transacciones digitales seguras dentro de entornos FinTech dinámicos.',
+            aboutText1: 'Tenía 15 años cuando construí mi primer servidor de juego multijugador: hice ingeniería inversa del protocolo cifrado del cliente, escribí el emulador del servidor y un driver anticheat en modo kernel, y lo puse en producción. Una empresa de videojuegos intentó comprarlo y me contrató en su lugar. Quince años después hago lo mismo con los pagos: entender el protocolo, encontrar los casos límite, mantenerlo en producción.',
+            aboutText2: 'Actualmente en <span class="highlight">Financial House</span> en Londres, donde mi equipo opera la plataforma de adquirencia de tarjetas, FX, SWIFT y Faster Payments. Día a día: <span class="highlight">Java</span>, <span class="highlight">Python</span>, PHP, AWS y Kubernetes, además de agentes LLM para operaciones de pago.',
             detailLocation: '"Londres, Reino Unido"',
             detailEducation: '"Lic. Ciencias de la Computación - METU"',
             detailLanguages: '["Turco (Nativo)", "Inglés (Competente)"]',
+            detailAward: '"e-biko 7ª Olimpiada Internacional de TIC, Ankara 2011"',
 
             ach1Title: '$6M Aumento de Ganancias',
-            ach1Desc: 'Rediseño y mejoras del sistema en ALTINBULL Investment',
+            ach1Desc: 'Rediseño y mejoras del sistema en GoldenBull',
             ach2Title: '$4M Venta de Tokens',
             ach2Desc: 'Contribución a ventas de tokens en un año en AceD Community',
             ach3Title: '97% Más Rápido',
@@ -240,8 +261,17 @@
             ach4Title: '99.99% Disponibilidad',
             ach4Desc: 'Migración EC2 a EKS para servicios críticos en Financial House',
 
-            expRole: 'Desarrollador de Software',
+            expRoleFh: 'Ingeniero de Software Senior & Team Lead',
+            expRoleSt: 'Desarrollador de Software',
+            expRoleAc: 'Desarrollador de Software',
+            expRoleGb: 'Team Lead',
             expPresent: 'Presente',
+            expFhCat0: 'IA, Migraciones y Liderazgo',
+            expFh13: 'Construí Sherlog, un agente LLM que investiga pagos fallidos (New Relic + CloudWatch, enmascaramiento PCI, Slack) \u2014 de 15\u201320 min a menos de 1 min',
+            expFh14: 'Ejecuté una migración de BD en producción en vivo con un servicio de replicación MySQL tolerante a fallos en Python (47 tablas, validación checksum) \u2014 sin pérdida permanente de datos, 13 transacciones en vuelo recuperadas',
+            expFh15: 'Lideré la migración asistida por IA de 40+ microservicios de pago a PHP 8.3 / Laravel 12 con Claude Code',
+            expFh16: 'Estandaricé la observabilidad con instrumentación personalizada de New Relic en los servicios de pago',
+            expFh17: 'Asumí el liderazgo del equipo en 2024 tras la salida del PM y el Team Lead; contraté dos ingenieros',
             expFhCat1: 'Infraestructura y Nube',
             expFhCat2: 'Pagos e Integraciones',
             expFhCat3: 'Cumplimiento y Seguridad',
@@ -289,7 +319,7 @@
 
             contactIntro: '¿Interesado en trabajar juntos? Conectemos.',
 
-            footerTagline: 'Desarrollador de Software creando<br>sistemas y soluciones escalables.',
+            footerTagline: 'Ingeniero de Software Senior creando<br>infraestructura de pagos y fintech.',
             footerCopy: '\u00a9 2026 Hecho con pasión.',
 
             chatWelcome: '¡Hola! Soy la IA de Osman \u2014 piensa en mí como su gemelo digital. Pregúntame sobre su experiencia, proyectos, visión o simplemente charla. Hablo como él.',
