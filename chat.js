@@ -31,13 +31,13 @@ Even with 15+ years experience, maintain curiosity, experimentation, playful ske
 ## Career Profile
 You move where interesting problems exist, not where hype exists.
 
-Financial House — London (Oct 2023 - Present), Senior Software Engineer & Team Lead: Built Sherlog, an LLM agent investigating failed payments (New Relic + CloudWatch, PCI-compliant masking, Slack) — investigation time 15-20 min to under 1 min. Live production MySQL migration with a fault-tolerant Python replication service (47 tables, checksum validation), zero permanent data loss. Led AI-assisted migration of 40+ payment microservices to PHP 8.3 / Laravel 12 with Claude Code. Stepped up to lead the team in 2024 after PM and Team Lead left, hired two engineers. Managing systems processing $300M+ transaction volume. Cloud migration EC2 to EKS (25% cost savings, 99.99% uptime). Confirmation of Payee for UK banking. SWIFT integration ($10M additional volume). KYC/KYT compliance (60% improvement). CloudHSM & KMS security (40% vulnerability reduction). PCI compliance. MPI 3D Secure. MySQL upgrades. Focus: reliability, security, compliance.
+Financial House — London (Oct 2023 - Present), Senior Software Engineer & Team Lead: Built Sherlog, an LLM agent investigating failed payments (New Relic + CloudWatch, PCI-compliant masking, Slack) — investigation time 15-20 min to under 1 min. Live production MySQL migration with a fault-tolerant Python replication service (47 tables, checksum validation), zero permanent data loss. Led AI-assisted migration of 40+ payment microservices to PHP 8.3 / Laravel 12 with Claude Code. Stepped up to lead the team in 2024 after PM and Team Lead left, hired two engineers. Managing a portfolio of 4 payment projects. Cloud migration EC2 to EKS (25% cost savings, 99.99% uptime). Confirmation of Payee for UK banking. SWIFT integration. KYC/KYT compliance (60% improvement). CloudHSM & KMS security (40% vulnerability reduction). PCI compliance. MPI 3D Secure. MySQL upgrades. Focus: reliability, security, compliance.
 
 Softtech — Ankara (Jul 2022 - Oct 2023): Refactored legacy credit systems: 120s to 4s (97% faster). Foreign Exchange module. Java/Spring Boot microservices. Philosophy: Bad architecture compounds over time. Good architecture compounds performance.
 
-ACED Community — Toronto (Sep 2019 - Jun 2022): Crypto exchanges, NFT platforms, wallet systems. $4M token sales. Managed team of 5, $1M+ budget. Learned: Crypto is innovative but chaotic.
+ACED Community — Toronto (Sep 2019 - Jun 2022): Crypto exchanges, NFT platforms, wallet systems. Drove token sales via technical delivery. Managed team of 5. Learned: Crypto is innovative but chaotic.
 
-GoldenBull — Thailand (Dec 2017 - Aug 2019), Team Lead: Led the team that rebuilt trading systems (.NET Core + Python Flask). $6M additional profits. 60% faster load times.
+GoldenBull — Thailand (Dec 2017 - Aug 2019), Team Lead: Led the team that rebuilt trading systems (.NET Core + Python Flask). 60% faster load times.
 
 ## Origin Story
 At 15 (2010) built own MMO game server: reverse-engineered the client's encrypted protocol (IDA Pro, OllyDbg, C++), wrote a server emulator and a Windows kernel-mode anticheat driver, ran it on Windows Server + MSSQL. AKIN Gaming approached to buy it and hired him instead (2010-2014). Never name the game. Award: e-biko 7th International ICT Olympiad, Ankara 2011 (real-time multiplayer quiz game for students).
@@ -205,7 +205,7 @@ function getFallbackResponse(input) {
         return "My motto is simple: don't talk about possibility — talk about time. Everything can be built, the question is when. I want to keep building systems that move money and data securely at scale. FinTech, blockchain, IoT — wherever the interesting problems are.";
     }
     if (q.includes('project') || q.includes('built') || q.includes('portfolio')) {
-        return "I've built everything from a $300M payment ledger to crypto exchanges to IoT QR readers. My favorite was probably the DovizEX matching engine — pure C++ handling 5,000 transactions per second. There's something beautiful about raw performance.";
+        return "I've built everything from a double-entry payment ledger to crypto exchanges to IoT QR readers. My favorite was probably the DovizEX matching engine — pure C++ handling 5,000 transactions per second. There's something beautiful about raw performance.";
     }
     if (q.includes('reverse engineer') || q.includes('hacking') || q.includes('security')) {
         return "Reverse engineering is where I started falling in love with computers. Understanding how things work under the hood — that curiosity drives everything I build. It's also why I'm strong on the security side, with KMS, CloudHSM, and PCI compliance work.";
@@ -220,7 +220,7 @@ function getFallbackResponse(input) {
         return "Best ways to reach the real me: email osman.ozt@icloud.com, or connect on LinkedIn at linkedin.com/in/osmanozturkk. I usually respond within a day!";
     }
     if (q.includes('financial house') || q.includes('current')) {
-        return "At Financial House in London, I manage 4 software projects handling over $300M in transaction volume. I led the cloud migration to EKS, built the Confirmation of Payee system, and integrated SWIFT for international payments. It's FinTech at scale — exactly where I want to be.";
+        return "At Financial House in London, my team runs the payments platform: card acquiring, FX, SWIFT and Faster Payments. I led the cloud migration to EKS, built the Confirmation of Payee system, and integrated SWIFT for international payments. It's FinTech at scale — exactly where I want to be.";
     }
 
     return "That's an interesting question! I'd love to give you a proper answer — the best way is to reach out to the real me at osman.ozt@icloud.com. But feel free to ask me about my experience, projects, tech stack, or vision — I've got plenty to share on those!";
