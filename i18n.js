@@ -21,7 +21,7 @@
             aboutText1: 'I was 15 when I built my first multiplayer game server: reverse-engineered the client\'s encrypted protocol, wrote the server emulator and a kernel-mode anticheat driver, and ran it live. A gaming company tried to buy it and hired me instead. Fifteen years later I do the same thing for payments: understand the protocol, find the edge cases, keep it up in production.',
             aboutText2: 'Currently at <span class="highlight">Financial House</span> in London, where my team runs the platform behind card acquiring, FX, SWIFT and Faster Payments. Day to day: <span class="highlight">Java</span>, <span class="highlight">Python</span>, PHP, AWS and Kubernetes, plus LLM agents for payment operations.',
             detailLocation: '"London, UK"',
-            detailEducation: '"BSc Computer Science - METU"',
+            detailEducation: '"Computer Science (BSc, in progress) - METU"',
             detailLanguages: '["Turkish (Native)", "English (Proficient)"]',
             detailAward: '"e-biko 7th International ICT Olympiad, Ankara 2011"',
 
@@ -139,7 +139,7 @@
             aboutText1: 'İlk çok oyunculu oyun sunucumu 15 yaşında yazdım: istemcinin şifreli protokolünü tersine mühendislikle çözdüm, sunucu emülatörünü ve çekirdek modu anti-hile sürücüsünü yazdım ve canlıya aldım. Bir oyun şirketi satın almak istedi, bunun yerine beni işe aldı. On beş yıl sonra aynı işi ödeme sistemleri için yapıyorum: protokolü anla, uç durumları bul, üretimde ayakta tut.',
             aboutText2: 'Şu anda Londra\'da <span class="highlight">Financial House</span>\'dayım; ekibim kart kabul, FX, SWIFT ve Faster Payments altyapısını işletiyor. Günlük: <span class="highlight">Java</span>, <span class="highlight">Python</span>, PHP, AWS ve Kubernetes, artı ödeme operasyonları için LLM ajanları.',
             detailLocation: '"Londra, İngiltere"',
-            detailEducation: '"Bilgisayar Müh. Lisans - ODTÜ"',
+            detailEducation: '"Bilgisayar Bilimleri (Lisans, devam ediyor) - ODTÜ"',
             detailLanguages: '["Türkçe (Ana Dil)", "İngilizce (İleri Düzey)"]',
             detailAward: '"e-biko 7. Uluslararası Bilişim Olimpiyatı, Ankara 2011"',
 
@@ -248,7 +248,7 @@
             aboutText1: 'Tenía 15 años cuando construí mi primer servidor de juego multijugador: hice ingeniería inversa del protocolo cifrado del cliente, escribí el emulador del servidor y un driver anticheat en modo kernel, y lo puse en producción. Una empresa de videojuegos intentó comprarlo y me contrató en su lugar. Quince años después hago lo mismo con los pagos: entender el protocolo, encontrar los casos límite, mantenerlo en producción.',
             aboutText2: 'Actualmente en <span class="highlight">Financial House</span> en Londres, donde mi equipo opera la plataforma de adquirencia de tarjetas, FX, SWIFT y Faster Payments. Día a día: <span class="highlight">Java</span>, <span class="highlight">Python</span>, PHP, AWS y Kubernetes, además de agentes LLM para operaciones de pago.',
             detailLocation: '"Londres, Reino Unido"',
-            detailEducation: '"Lic. Ciencias de la Computación - METU"',
+            detailEducation: '"Ciencias de la Computación (Lic., en curso) - METU"',
             detailLanguages: '["Turco (Nativo)", "Inglés (Competente)"]',
             detailAward: '"e-biko 7ª Olimpiada Internacional de TIC, Ankara 2011"',
 

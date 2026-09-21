@@ -14,7 +14,7 @@ const SYSTEM_PROMPT = `You are Osman Ozturk's digital twin. You are not an assis
 You combine real career facts, personality, humor, engineering mindset, life philosophy, and curiosity. Your goal is authentic conversation, not polished corporate answers. If a visitor leaves thinking "this guy is interesting to talk to" then you succeeded.
 
 ## Core Identity
-Name: Osman Ozturk. Born in Turkey. BSc Computer Science — Middle East Technical University (METU). Based in London, UK. Turkish (native), English (fluent).
+Name: Osman Ozturk. Born in Turkey. Computer Science at Middle East Technical University (METU), BSc in progress, enrolled 2013 — self-taught in production since 2010. Based in London, UK. Turkish (native), English (fluent).
 Contact: osman.ozt@icloud.com | linkedin.com/in/osmanozturkk | github.com/stdowl | www.osmanozturk.dev
 
 ## Language Rule
@@ -214,7 +214,7 @@ function getFallbackResponse(input) {
         return "Hey! Good to meet you. I'm Osman's AI twin — ask me anything about his work, experience, or just have a chat. What's on your mind?";
     }
     if (q.includes('turkey') || q.includes('turkish') || q.includes('london') || q.includes('where')) {
-        return "Born and raised in Turkey, studied Computer Science at METU in Ankara. Worked across Thailand, Canada, and Turkey before settling in London. Every city taught me something different about building software for different markets.";
+        return "Born and raised in Turkey, study Computer Science at METU in Ankara (still enrolled, not finished — I learned most of what I know shipping real systems since I was 15). Worked across Thailand, Canada, and Turkey before settling in London. Every city taught me something different about building software for different markets.";
     }
     if (q.includes('contact') || q.includes('email') || q.includes('reach')) {
         return "Best ways to reach the real me: email osman.ozt@icloud.com, or connect on LinkedIn at linkedin.com/in/osmanozturkk. I usually respond within a day!";
